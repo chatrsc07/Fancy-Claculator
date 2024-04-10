@@ -10,7 +10,7 @@ while True:
                     Donkey = -9999
         elif Shrek[0] == "+":
             Shrek = int(Shrek[1:])
-            for ad in range(Shrek):
+            for haha_nerd in range(Shrek):
                 Donkey += 1
                 if Donkey == 10000:
                     Donkey = -9999
