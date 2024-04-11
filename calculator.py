@@ -2,15 +2,15 @@ Donkey = 0
 while True:
     Shrek = input(Donkey)
     if Shrek[1:].isnumeric():
-        if Shrek[0] == "-":
-            Shrek = 19999 - int(Shrek[1:])
-            for ad in range(Shrek):
+        if Shrek[0] == "+":
+            Shrek = int(Shrek[1:])
+            for haha_nerd in range(Shrek):
                 Donkey += 1
                 if Donkey == 10000:
                     Donkey = -9999
-        elif Shrek[0] == "+":
-            Shrek = int(Shrek[1:])
-            for haha_nerd in range(Shrek):
+        elif Shrek[0] == "-":
+            Shrek = 19999 - int(Shrek[1:])
+            for ad in range(Shrek):
                 Donkey += 1
                 if Donkey == 10000:
                     Donkey = -9999
@@ -36,7 +36,23 @@ while True:
                             Donkey += 1
                             if Donkey == 10000:
                                 Donkey = -9999
+        elif Shrek[0] == "/":
+            counter = int(Shrek[1:])
+            add = -1
+            while Donkey > 0:
+                Shrek = 19999 - counter
+                for ad in range(Shrek):
+                    Donkey += 1
+                    if Donkey == 10000:
+                        Donkey = -9999
+                add += 1
+            Donkey = add
         else:
             print("Huh?")
     else:
         print("Huh?")
+
+
+
+# Donkey is the current number
+# Shrek is teh number inputed by the user
