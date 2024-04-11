@@ -1,9 +1,4 @@
 # Fancy Calculator
-This is a joke project.
-## IT IS NOT GOOD ON PURPOSE
-The fancy calculator is a joke between python devs. 
-
-I'm not that good at python. 
 
 I want to make a calculator in python but in  the worst most inefficient way possible. 
 
@@ -23,8 +18,4 @@ Also, the variables are named after Shrek the movie because pep8 is annoying
 ### Future things
 Division - I don't know how this will work tho
 
-Graphing?
-
-GUI?
-## HELP WANTED
  
